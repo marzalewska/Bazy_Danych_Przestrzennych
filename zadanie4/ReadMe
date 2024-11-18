@@ -1,0 +1,26 @@
+Zadanie 1:
+W zakładce Styl dla warstwy trees styl został zmeiniaony dla wartości skategoryzowanych, a następnie wybrana zmienna VEGDESC, która zawiera kategorie lasów. 
+Następnie odfiltrowane zostały lasy mieszane komendą "VEGDESC" = 'Mixed Trees' i ostatecznie obliczona ich łączna powierzchnia.
+
+Zadanie 2:
+Warstwa trees została skopiowana 3 razy i na każdej z warstw został odfiltrowany inny typ drzew korzystając z filtrowania i komend: "VEGDESC" = 'Mixed Trees', "VEGDESC" = 'Deciduous', "VEGDESC" = 'Evergreen'
+
+Zadanie 3:
+Z warstwy regions odfiltrowany został ten o nazwie "NAME_2" = 'Matanuska-Susitna'. Drogi kolejowe zstały przycięte za pomocą narzędzia wektorowego "Przytnij" jako warstwa wejściowa ustawiona warstwa railroads a warstwa nakładana regions. Następnie za pomocą kalkulatora pól stworzona nowa zmienna length i ostatecznie wyliczona suma długości w stopach 
+
+Zadanie 4:
+Z warstwy airports odfiltrowane zostały lotniska militarne "USE" = 'Military' (takich lotnisk było 8), następnie za pomocą funckji obliczeniowych obliczona została średnia wysokość nad poziomem morza. Kolejnym krokiem było dodanie kolejnego filtra "USE" = 'Military' AND "ELEV" > 1400 i było jedno takie lotnisko i zostało usunięte.
+
+Zadanie 5 i 6:
+Z warstwy regions odfiltrowany został tylko region o nazwie Bristol Bay i warstwa popp została przycięta tak aby zostały tylko budynku w tym regionie. Następnie nałożona została warstwa rzek i na jej podstawie stworzony został bufor (otoczka) o odległości 328084 stóp (100km) a następnie ponownie warstwa popp została przycięta tym razem do warstwy powstałej z bufora
+
+Zadanie 7:
+Po wczytaniu warstwy majrivers użyto narzędzia wektorowej analizy "Przecięcia" jako jedna warstwa została ustwiona warstwa majrivers a jako druga railroads, bo wykonaniu tego zadania otrzymane zostały punkty przecięcia i było ich 8.
+
+Zadanie 8:
+Do tego zadania użyta została funkcja wyodrębnij wierzchołki (662).
+
+
+
+
+ 
