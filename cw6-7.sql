@@ -1,5 +1,5 @@
---raster2pgsql.exe -s 3763 -N -32767 -t 100x100 -I -C -M -d "D:\mary\Astudia\semestr7\bazy danych\PostGIS raster - dane" rasters.dem | psql -d postgis_raster_ut -U postgres
---raster2pgsql.exe -s 3763 -N -32767 -t 128x128 -I -C -M -d "D:\mary\Astudia\semestr7\bazy danych\PostGIS raster - dane" rasters.landsat8 | psql -d postgis_raster_ut -U postgres
+--raster2pgsql.exe -s 3763 -N -32767 -t 100x100 -I -C -M -d "D:\mary\Astudia\semestr7\bazy danych\PostGIS raster - dane" rasters.dem | psql -d postgis_raster -U postgres
+--raster2pgsql.exe -s 3763 -N -32767 -t 128x128 -I -C -M -d "D:\mary\Astudia\semestr7\bazy danych\PostGIS raster - dane" rasters.landsat8 | psql -d postgis_raster -U postgres
 
 
 SELECT * FROM raster_columns;
